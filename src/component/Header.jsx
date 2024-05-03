@@ -10,7 +10,7 @@ const Header = () => {
         AOS.init({duration: 1000});
     }, [])
   return (
-    <header className="pt-5 container mx-auto" style={{ backgroundImage: "url('../../public/img/hero3.png')", backgroundSize: 'cover' }} id="home">
+    <header className="pt-5 container mx-auto" style={{ backgroundImage: "url('img/hero3.png')", backgroundSize: 'cover' }} id="home">
             {/* <nav className="w-full h-16 flex justify-between items-center font-chivo px-4 m-auto">
                 <a href='#home' className="flex items-center pl-16 ml-2 text-lg">Wisnu Mahesa</a>
                 <ul className="flex w-2/5 justify-between m-auto pl-10">
@@ -43,11 +43,11 @@ const Header = () => {
                     {/* <a href="#about" className="bg-blue-400 w-1/4 text-white font-semibold hover:bg-blue-700 transition animate__animated animate__fadeInLeft flex justify-evenly h-14 my-auto pt-4">NEXT<span><i className="fa-solid fa-chevron-right"></i></span></a> */}
                 </div>
                 <div className="w-1/2 flex justify-center relative">
-                    <div className="flex absolute z-0 w-14 h-14 rounded bg-white animate-pulse shadow-sm right-20 top-64"><img className="m-auto" data-aos='zoom-in' src="../../public/img/vscode-icons_file-type-html.png" alt="" /></div>
-                    <div className="flex absolute z-0 w-6 h-6 rounded bg-white animate-pulse shadow-sm right-36 top-36"><img className="m-auto" data-aos='zoom-in' src="../../public/img/logos_javascript.png" alt="" /></div>
-                    <div className="flex absolute z-0 w-12 h-12 rounded bg-white animate-pulse shadow-sm left-16 top-72"><img className="m-auto" data-aos='zoom-in' src="../../public/img/vscode-icons_file-type-css.png" alt="" /></div>
-                    <div className="flex absolute z-0 w-10 h-10 rounded bg-white animate-pulse shadow-sm left-32 top-36"><img className="m-auto" data-aos='zoom-in' src="../../public/img/vscode-icons_file-type-node.png" alt="" /></div>
-                    <img src="../../public/img/saya2.png" data-aos='fade-up' className="w-96" alt="" />
+                    <div className="flex absolute z-0 w-14 h-14 rounded bg-white animate-pulse shadow-sm right-20 top-64"><img className="m-auto" data-aos='zoom-in' src="../img/vscode-icons_file-type-html.png" alt="" /></div>
+                    <div className="flex absolute z-0 w-6 h-6 rounded bg-white animate-pulse shadow-sm right-36 top-36"><img className="m-auto" data-aos='zoom-in' src="../img/logos_javascript.png" alt="" /></div>
+                    <div className="flex absolute z-0 w-12 h-12 rounded bg-white animate-pulse shadow-sm left-16 top-72"><img className="m-auto" data-aos='zoom-in' src="../img/vscode-icons_file-type-css.png" alt="" /></div>
+                    <div className="flex absolute z-0 w-10 h-10 rounded bg-white animate-pulse shadow-sm left-32 top-36"><img className="m-auto" data-aos='zoom-in' src="../img/vscode-icons_file-type-node.png" alt="" /></div>
+                    <img src="../img/saya2.png" data-aos='fade-up' className="w-96" alt="" />
                 </div>
             </div>
         </header>

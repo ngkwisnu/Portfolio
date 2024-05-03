@@ -11,7 +11,7 @@ const Main = () => {
         <main className="container mx-auto">
             <div className="w-full flex py-20" id="about">
                 <div className="w-2/5 mx-10" data-aos="fade-up">
-                    <img src="../../public/img/hero2.png" alt="" />
+                    <img src="img/hero2.png" alt="" />
                 </div>
                 <div className="ml-10 mr-20 my-auto py-10 w-3/5 text-slate-800">
                     <p className="font-bold text-blue-400 pb-3" data-aos="fade-left">ABOUT ME</p>
@@ -81,42 +81,42 @@ const Main = () => {
                     <div className='w-3/4 my-10 grid grid-cols-3 gap-10'>
                         <div data-aos="zoom-in">
                             <div className='group bg-transparent border-2 hover:bg-blue-400 transition ease-in-out delay-100 shadow-sm h-full p-10 text-slate-700 rounded-lg backdrop-blur-sm hover:-translate-y-1 hover:scale-110 duration-300'>
-                                <img className='mb-5' src="../../public/img/img/devicon_html5.png" alt="" width={'36px'} />
+                                <img className='mb-5' src="img/img/devicon_html5.png" alt="" width={'36px'} />
                                 <h4 className='text-lg font-semibold text-slate-700 group-hover:text-white transition ease-in-out delay-100'>HTML</h4>
                                 <p className='text-sm text-slate-400 mt-3 leading-relaxed group-hover:text-white transition ease-in-out delay-100'>HyperText Markup Language is the standard markup language for documents designed to be displayed in a web browser.</p>
                             </div>
                         </div>
                         <div data-aos="zoom-in">
                             <div className='group bg-transparent border-2 hover:bg-blue-400 transition ease-in-out delay-100 shadow-sm h-full p-10 text-slate-700 rounded-lg backdrop-blur-sm hover:-translate-y-1 hover:scale-110 duration-300'>
-                                <img className='mb-5' src="../../public/img/img/devicon_css3.png" alt="" width={'36px'} />
+                                <img className='mb-5' src="img/img/devicon_css3.png" alt="" width={'36px'} />
                                 <h4 className='text-lg font-semibold text-slate-700 group-hover:text-white transition ease-in-out delay-100'>CSS</h4>
                                 <p className='text-sm text-slate-400 mt-3 leading-relaxed group-hover:text-white transition ease-in-out delay-100'>Cascading Style Sheets are rules for organizing various components on a website to make them more structured and consistent.</p>
                             </div>
                         </div>
                         <div data-aos="zoom-in">
                             <div className='group bg-transparent border-2 hover:bg-blue-400 transition ease-in-out delay-100 shadow-sm h-full p-10 text-slate-700 rounded-lg backdrop-blur-sm hover:-translate-y-1 hover:scale-110 duration-300'>
-                                <img className='mb-5' src="../../public/img/devicon_figma.png" alt="" width={'34px'} />
+                                <img className='mb-5' src="img/devicon_figma.png" alt="" width={'34px'} />
                                 <h4 className='text-lg font-semibold text-slate-700 group-hover:text-white transition ease-in-out delay-100'>Figma</h4>
                                 <p className='text-sm text-slate-400 mt-3 leading-relaxed group-hover:text-white transition ease-in-out delay-100'>Figma is a collaborative web application for user interface design, with additional offline features available in desktop applications for Windows and macOS.</p>
                             </div>
                         </div>
                         <div data-aos="zoom-in">
                             <div className='group bg-transparent border-2 hover:bg-blue-400 transition ease-in-out delay-100 shadow-sm h-full p-10 text-slate-700 rounded-lg backdrop-blur-sm hover:-translate-y-1 hover:scale-110 duration-300'>
-                                <img className='mb-5' src="../../public/img/img/mysql.png" alt="" width={'34px'} />
+                                <img className='mb-5' src="img/img/mysql.png" alt="" width={'34px'} />
                                 <h4 className='text-lg font-semibold text-slate-700 group-hover:text-white transition ease-in-out delay-100'>MySQL</h4>
                                 <p className='text-sm text-slate-400 mt-3 leading-relaxed group-hover:text-white transition ease-in-out delay-100'>MySQL is a multi-threaded, multi-user SQL database management system (DBMS) software, with approximately 6 million installations worldwide.</p>
                             </div>
                         </div>
                         <div data-aos="zoom-in">
                             <div className='group bg-transparent border-2 hover:bg-blue-400 transition ease-in-out delay-100 shadow-sm h-full p-10 text-slate-700 rounded-lg backdrop-blur-sm hover:-translate-y-1 hover:scale-110 duration-300'>
-                                <img className='mb-5' src="../../public/img/img/logos_nodejs-icon.png" alt="" width={'34px'} />
+                                <img className='mb-5' src="img/img/logos_nodejs-icon.png" alt="" width={'34px'} />
                                 <h4 className='text-lg font-semibold text-slate-700 group-hover:text-white transition ease-in-out delay-100'>NodeJS</h4>
                                 <p className='text-sm text-slate-400 mt-3 leading-relaxed group-hover:text-white transition ease-in-out delay-100'>Node.js is a software platform designed by Ryan Dahl. Node.js is a runtime for executing JavaScript outside of the web browser environment, built on top of the JavaScript V8 engine.</p>
                             </div>
                         </div>
                         <div data-aos="zoom-in">
                             <div className='group bg-transparent border-2 hover:bg-blue-400 transition ease-in-out delay-100 shadow-sm h-full p-10 text-slate-700 rounded-lg backdrop-blur-sm hover:-translate-y-1 hover:scale-110 duration-300'>
-                                <img className='mb-5' src="../../public/img/devicon_tailwindcss.png" alt="" width={'40px'} />
+                                <img className='mb-5' src="img/devicon_tailwindcss.png" alt="" width={'40px'} />
                                 <h4 className='text-lg font-semibold text-slate-700 group-hover:text-white transition ease-in-out delay-100'>TailwindCSS</h4>
                                 <p className='text-sm text-slate-400 mt-3 leading-relaxed group-hover:text-white transition ease-in-out delay-100'>Tailwind CSS is a CSS framework that contains a set of utility classes for rapidly building custom interfaces.</p>
                             </div>
@@ -166,7 +166,7 @@ const Main = () => {
                     <div className='w-3/4 my-10 grid grid-cols-3 gap-5'>
                         <div data-aos="zoom-in">
                             <div className='relative hover:opacity-80 ease-in-out delay-100 animated hover:rounded-md transition hover:scale-90 duration-300'>
-                                <img className='rounded shadow-sm hover:bg-transparent' src="../../public/img/img/Screenshot 2023-09-22 205814.png" alt="" />
+                                <img className='rounded shadow-sm hover:bg-transparent' src="img/img/Screenshot 2023-09-22 205814.png" alt="" />
                                 <div className='hover:opacity-95 ease-in-out delay-100 animated hover:rounded-md transition duration-300 absolute inset-0 bg-blue-500 opacity-0 flex flex-col justify-center gap-5 items-center p-5'>
                                     <h5 className='font-bold text-white text-lg'>SIMAPEKA</h5>
                                     <p className='text-white text-center'>SIMAPEKA is a Internship Management System developed using HTML, CSS, Codeigniter 3, MySQL, and JavaScript technologies.</p>
@@ -176,7 +176,7 @@ const Main = () => {
                         </div>
                         <div data-aos="zoom-in">
                             <div className='relative hover:opacity-80 ease-in-out delay-100 animated hover:rounded-md transition hover:scale-90 duration-300'>
-                                <img className='rounded shadow-sm hover:bg-transparent' src="../../public/img/img/sirenmodata.png" alt="" />
+                                <img className='rounded shadow-sm hover:bg-transparent' src="img/img/sirenmodata.png" alt="" />
                                 <div className='hover:opacity-95 ease-in-out delay-100 animated hover:rounded-md transition duration-300 absolute inset-0 bg-blue-500 opacity-0 flex flex-col justify-center gap-5 items-center p-5'>
                                     <h5 className='font-bold text-white text-lg'>SIRENMO</h5>
                                     <p className='text-white text-center'>SIRENMO is a Rental Information System developed using HTML, CSS, Laravel, MySQL, and JavaScript technologies.</p>
@@ -186,7 +186,7 @@ const Main = () => {
                         </div>
                         <div data-aos="zoom-in">
                             <div className='relative hover:opacity-80 ease-in-out delay-100 animated hover:rounded-md transition hover:scale-90 duration-300'>
-                                <img className='rounded shadow-sm hover:bg-transparent' src="../../public/img/img/kasir2.png" alt="" />
+                                <img className='rounded shadow-sm hover:bg-transparent' src="img/img/kasir2.png" alt="" />
                                 <div className='hover:opacity-95 ease-in-out delay-100 animated hover:rounded-md transition duration-300 absolute inset-0 bg-blue-500 opacity-0 flex flex-col justify-center gap-5 items-center p-5'>
                                     <h5 className='font-bold text-white text-lg'>Healshop</h5>
                                     <p className='text-white text-center'>Healshop is a Point of Sale System developed using HTML, CSS, PHP, and MySQL technologies.</p>
@@ -196,7 +196,7 @@ const Main = () => {
                         </div>
                         <div data-aos="zoom-in">
                             <div className='relative hover:opacity-80 ease-in-out delay-100 animated hover:rounded-md transition hover:scale-90 duration-300'>
-                                <img className='rounded shadow-sm hover:bg-transparent' src="../../public/img/img/revou.png" alt="" />
+                                <img className='rounded shadow-sm hover:bg-transparent' src="img/img/revou.png" alt="" />
                                 <div className='hover:opacity-95 ease-in-out delay-100 animated hover:rounded-md transition duration-300 absolute inset-0 bg-blue-500 opacity-0 flex flex-col justify-center gap-5 items-center p-5'>
                                     <h5 className='font-bold text-white text-lg'>E-Groceries Shop</h5>
                                     <p className='text-white text-center'>The landing page for food sales developed using HTML, CSS, and JavaScript technologies.</p>
@@ -206,7 +206,7 @@ const Main = () => {
                         </div>
                         <div data-aos="zoom-in">
                             <div className='relative hover:opacity-80 ease-in-out delay-100 animated hover:rounded-md transition hover:scale-90 duration-300'>
-                                <img className='rounded shadow-sm hover:bg-transparent' src="../../public/img/img/portal.png" alt="" />
+                                <img className='rounded shadow-sm hover:bg-transparent' src="img/img/portal.png" alt="" />
                                 <div className='hover:opacity-95 ease-in-out delay-100 animated hover:rounded-md transition duration-300 absolute inset-0 bg-blue-500 opacity-0 flex flex-col justify-center gap-5 items-center p-5'>
                                     <h5 className='font-bold text-white text-lg'>Portal Nuansa</h5>
                                     <p className='text-white text-center'>Portal Nuansa is a tourism information system design developed using Figma, HTML, and CSS technologies.</p>

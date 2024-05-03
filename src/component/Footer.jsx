@@ -8,7 +8,7 @@ const Footer = () => {
     }, [])
   return (
     <footer className='container mx-auto'>
-        <div className="h-96" style={{ backgroundImage: "url('../../public/img/Frame6.png')", backgroundSize: 'cover' }} >
+        <div className="h-96" style={{ backgroundImage: "url('img/Frame6.png')", backgroundSize: 'cover' }} >
             <div className="w-full flex justify-center">
                 <div className="mx-10 my-auto w-4/5 text-slate-800 pt-52">
                     <p className="font-bold text-xs font-poppins text-slate-400 pb-3 text-center" data-aos="fade-up">CONTACT ME</p>
