@@ -28,9 +28,9 @@ const MobileView = () => {
                         <div className="text-xl text-center leading-tight text-slate-800" data-aos='fade-right'>I'm Wisnu Mahesa a<br/></div>
                         <span className="text-blue-400 font-semibold flex justify-center text-4xl" data-aos='fade-right'><TypeIt>Web Developer</TypeIt></span>
                         <p className="leading-normal text-center w-4/5 text-sm font-medium text-slate-500" data-aos='fade-right'><TypeIt>Hi, I am a 6th Semester Software Engineering Technology Student at Bali State Polytechnic</TypeIt></p>
-                        <div className='flex'>
-                            <a href="https://www.github.com/ngkwisnu" className="text-xl text-slate-400 my-auto mx-5"><i className="fa-brands fa-github"></i></a>
-                            <a href="https://www.linkedin.com/in/wisnumahesa" className="text-xl text-slate-400 my-auto mr-5"><i className="fa-brands fa-linkedin"></i></a>
+                        <div className='flex gap-8'>
+                            <a href="https://www.github.com/ngkwisnu" className="text-xl text-slate-400 my-auto"><i className="fa-brands fa-github"></i></a>
+                            <a href="https://www.linkedin.com/in/wisnumahesa" className="text-xl text-slate-400 my-auto"><i className="fa-brands fa-linkedin"></i></a>
                             <a href="https://www.instagram.com/ngkwisnu" className="text-xl text-slate-400 my-auto"><i className="fa-brands fa-instagram"></i></a>
                         </div>
                     </div>
@@ -41,12 +41,12 @@ const MobileView = () => {
                     <div className="w-full flex justify-center items-center mt-10" data-aos="fade-up">
                         <img src="img/img/bg3.png" className='w-3/5' alt="" />
                     </div>
-                    <div className="mx-10 w-full flex-wrap text-slate-800">
-                        <p className="font-bold text-blue-400 pb-3 text-center" data-aos="fade-left pt-3">ABOUT ME</p>
+                    <div className="mx-10 w-full flex-wrap mt-8 text-slate-800">
+                        <p className="font-bold text-blue-400 pb-3 text-center" data-aos="fade-left">ABOUT ME</p>
                         <h1 className="text-3xl font-semibold pb-3 leading-normal text-center" data-aos="fade-left">Software Engineer Student at Bali State Polytechnic</h1>
                         <p className="font-medium text-slate-500 leading-normal pb-10 text-justify" data-aos="fade-left">An active student enrolled in the D4 Software Engineering program at Bali State Polytechnic, currently in the sixth semester of the className of 2021. Possesses a diverse range of expertise in web development, including UX/UI design using Figma, front-end development (HTML, CSS, and JavaScript), as well as back-end development utilizing PHP, JavaScript, and frameworks like CodeIgniter and Laravel, Node.js, Express.js, and MySQL for database design. Additionally, proficient in soft skills such as Data Analysis, Research, and Project Management. Demonstrates a keen interest and talent in software design and development, particularly in the realm of website development.</p>
                         <div className="flex w-full" data-aos="fade-left">
-                            <a href="https://drive.google.com/file/d/1dovEVWtJ65RjNjWWljebVAK0ZVsopwwo/view" target='blank' className="bg-blue-400 p-5 w-full text-white font-semibold hover:bg-blue-700 transition">
+                            <a href="https://drive.google.com/file/d/1dovEVWtJ65RjNjWWljebVAK0ZVsopwwo/view" target='blank' className="bg-blue-400 p-5 w-full text-white font-semibold hover:bg-blue-700 transition rounded-lg">
                                 <span className="block text-center">Download CV<i className="fa-solid fa-arrow-down ml-4 mt-1"></i></span>
                             </a>
                         </div>
@@ -94,9 +94,9 @@ const MobileView = () => {
                     </div>
                 </div>
                 <div className='w-full py-10' id='skills'>
-                    <div className='w-full pt-10'>
+                    <div className='w-full pt-10 flex flex-col justify-center items-center'>
                         <p className="font-bold text-blue-400 pb-2 text-center" data-aos="fade-up">SKILLS</p>
-                        <h1 className="text-3xl font-semibold pb-3 leading-normal text-center" data-aos="fade-up">Software and Technology</h1>
+                        <h1 className="text-3xl font-semibold pb-3 leading-normal text-center w-4/5" data-aos="fade-up">Software and Technology</h1>
                     </div>
                     <div className='flex justify-center'>
                         <div className='w-3/4 my-10 flex flex-wrap gap-10'>
