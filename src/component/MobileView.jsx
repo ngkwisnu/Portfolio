@@ -42,7 +42,7 @@ const MobileView = () => {
                         <img src="img/img/bg3.png" className='w-3/5' alt="" />
                     </div>
                     <div className="mx-10 w-full flex-wrap text-slate-800">
-                        <p className="font-bold text-blue-400 pb-3 text-center" data-aos="fade-left">ABOUT ME</p>
+                        <p className="font-bold text-blue-400 pb-3 text-center" data-aos="fade-left pt-3">ABOUT ME</p>
                         <h1 className="text-3xl font-semibold pb-3 leading-normal text-center" data-aos="fade-left">Software Engineer Student at Bali State Polytechnic</h1>
                         <p className="font-medium text-slate-500 leading-normal pb-10 text-justify" data-aos="fade-left">An active student enrolled in the D4 Software Engineering program at Bali State Polytechnic, currently in the sixth semester of the className of 2021. Possesses a diverse range of expertise in web development, including UX/UI design using Figma, front-end development (HTML, CSS, and JavaScript), as well as back-end development utilizing PHP, JavaScript, and frameworks like CodeIgniter and Laravel, Node.js, Express.js, and MySQL for database design. Additionally, proficient in soft skills such as Data Analysis, Research, and Project Management. Demonstrates a keen interest and talent in software design and development, particularly in the realm of website development.</p>
                         <div className="flex w-full" data-aos="fade-left">
@@ -53,15 +53,15 @@ const MobileView = () => {
                     </div>
                 </div>
                 <div className="w-full px-10 py-10 bg-gray-50 flex flex-col justify-center items-center" id='service'>
-                    <div className="w-full py-20">
+                    <div className="w-full py-10">
                         <div className="w-full text-slate-800" data-aos="fade-right">
-                            <p className="font-bold text-blue-400 pb-3 text-center">SERVICES</p>
-                            <h1 className="text-3xl font-semibold pb-3 leading-normal text-center">Here are the services we are providing to you.</h1>
-                            <p className="font-medium text-slate-500 leading-normal pb-5 text-justify">With my expertise and experience in web development, I am ready to help you grow your business through digital services. Immediately develop a digital business to expand your network and improve the quality of your business.</p>
+                            <p className="font-bold text-blue-400 pb-3">SERVICES</p>
+                            <h1 className="text-3xl font-semibold pb-3 leading-normal">Here are the services we are providing to you.</h1>
+                            <p className="font-medium text-slate-500 leading-normal">With my expertise and experience in web development, I am ready to help you grow your business through digital services. Immediately develop a digital business to expand your network and improve the quality of your business.</p>
                         </div>
                     </div>
                     <div className="w-full">
-                        <div className="w-11/12" data-aos='fade-right'>
+                        <div className="w-full" data-aos='fade-right'>
                             <div className="text-base font-medium">Web Development</div>
                             <div className='flex mb-5'>
                                 <div className="w-full bg-gray-200 rounded-full h-1.5 dark:bg-gray-700 flex my-auto">
@@ -93,7 +93,7 @@ const MobileView = () => {
                         </div>
                     </div>
                 </div>
-                <div className='w-full py-20' id='skills'>
+                <div className='w-full py-10' id='skills'>
                     <div className='w-full pt-10'>
                         <p className="font-bold text-blue-400 pb-2 text-center" data-aos="fade-up">SKILLS</p>
                         <h1 className="text-3xl font-semibold pb-3 leading-normal text-center" data-aos="fade-up">Software and Technology</h1>
@@ -179,9 +179,9 @@ const MobileView = () => {
                 </div>
                 
                 <div className='w-full pt-14' id='portfolio'>
-                    <div className='w-full pt-16'>
+                    <div className='w-full pt-16 flex flex-col justify-center items-center'>
                         <p className="font-bold text-blue-400 pb-2 text-center" data-aos="fade-down">PORTFOLIO</p>
-                        <h1 className="text-3xl font-semibold pb-3 leading-normal text-center" data-aos="fade-down">Some Of My Recent Works</h1>
+                        <h1 className="text-3xl font-semibold pb-3 leading-normal text-center w-4/5" data-aos="fade-down">Some Of My Recent Works</h1>
                     </div>
                     <div className='flex justify-center'>
                         <div className='w-3/4 my-10 flex-wrap flex gap-10'>
@@ -190,7 +190,7 @@ const MobileView = () => {
                                     <img className='rounded shadow-sm hover:bg-transparent' src="img/img/Screenshot 2023-09-22 205814.png" alt="" />
                                     <div className='hover:opacity-95 ease-in-out delay-100 animated hover:rounded-md transition duration-300 absolute inset-0 bg-blue-500 opacity-0 flex flex-col justify-center gap-5 items-center p-5'>
                                         <h5 className='font-bold text-white text-lg'>SIMAPEKA</h5>
-                                        <p className='text-white text-center'>SIMAPEKA is a Internship Management System developed using HTML, CSS, Codeigniter 3, MySQL, and JavaScript technologies.</p>
+                                        <p className='text-white text-sm text-center'>SIMAPEKA is a Internship Management System developed using HTML, CSS, Codeigniter 3, MySQL, and JavaScript technologies.</p>
                                     </div>
                                 </div>
                             </div>
@@ -199,7 +199,7 @@ const MobileView = () => {
                                     <img className='rounded shadow-sm hover:bg-transparent' src="img/img/sirenmodata.png" alt="" />
                                     <div className='hover:opacity-95 ease-in-out delay-100 animated hover:rounded-md transition duration-300 absolute inset-0 bg-blue-500 opacity-0 flex flex-col justify-center gap-5 items-center p-5'>
                                         <h5 className='font-bold text-white text-lg'>SIRENMO</h5>
-                                        <p className='text-white text-center'>SIRENMO is a Rental Information System developed using HTML, CSS, Laravel, MySQL, and JavaScript technologies.</p>
+                                        <p className='text-white text-sm text-center'>SIRENMO is a Rental Information System developed using HTML, CSS, Laravel, MySQL, and JavaScript technologies.</p>
                                     </div>
                                 </div>
                             </div>
@@ -208,7 +208,7 @@ const MobileView = () => {
                                     <img className='rounded shadow-sm hover:bg-transparent' src="img/img/kasir2.png" alt="" />
                                     <div className='hover:opacity-95 ease-in-out delay-100 animated hover:rounded-md transition duration-300 absolute inset-0 bg-blue-500 opacity-0 flex flex-col justify-center gap-5 items-center p-5'>
                                         <h5 className='font-bold text-white text-lg'>Healshop</h5>
-                                        <p className='text-white text-center'>Healshop is a Point of Sale System developed using HTML, CSS, PHP, and MySQL technologies.</p>
+                                        <p className='text-white text-sm text-center'>Healshop is a Point of Sale System developed using HTML, CSS, PHP, and MySQL technologies.</p>
                                     </div>
                                 </div>
                             </div>
@@ -217,7 +217,7 @@ const MobileView = () => {
                                     <img className='rounded shadow-sm hover:bg-transparent' src="img/img/revou.png" alt="" />
                                     <div className='hover:opacity-95 ease-in-out delay-100 animated hover:rounded-md transition duration-300 absolute inset-0 bg-blue-500 opacity-0 flex flex-col justify-center gap-5 items-center p-5'>
                                         <h5 className='font-bold text-white text-lg'>E-Groceries Shop</h5>
-                                        <p className='text-white text-center'>The landing page for food sales developed using HTML, CSS, and JavaScript technologies.</p>
+                                        <p className='text-white text-sm text-center'>The landing page for food sales developed using HTML, CSS, and JavaScript technologies.</p>
                                     </div>
                                 </div>
                             </div>
@@ -226,7 +226,7 @@ const MobileView = () => {
                                     <img className='rounded shadow-sm hover:bg-transparent' src="img/img/portal.png" alt="" />
                                     <div className='hover:opacity-95 ease-in-out delay-100 animated hover:rounded-md transition duration-300 absolute inset-0 bg-blue-500 opacity-0 flex flex-col justify-center gap-5 items-center p-5'>
                                         <h5 className='font-bold text-white text-lg'>Portal Nuansa</h5>
-                                        <p className='text-white text-center'>Portal Nuansa is a tourism information system design developed using Figma, HTML, and CSS technologies.</p>
+                                        <p className='text-white text-sm text-center'>Portal Nuansa is a tourism information system design developed using Figma, HTML, and CSS technologies.</p>
                                     </div>
                                 </div>
                             </div>
