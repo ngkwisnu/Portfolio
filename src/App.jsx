@@ -5,16 +5,22 @@ import './tailwind.css'
 import Header from './component/Header'
 import Main from './component/Main'
 import Footer from './component/Footer'
+import MobileView from './component/MobileView'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div>
-      <Header/>
-      <Main/>
-      <Footer/>
-    </div>
+    <>
+      <div className='hidden lg:block'>
+        <Header/>
+        <Main/>
+        <Footer/>
+      </div>
+      <div className='block lg:hidden'>
+        <MobileView/>
+      </div>
+    </>
   )
 }
 
