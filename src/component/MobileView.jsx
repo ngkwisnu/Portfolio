@@ -46,7 +46,7 @@ const MobileView = () => {
                         <h1 className="text-3xl font-semibold pb-3 leading-normal text-center" data-aos="fade-left">Software Engineer Student at Bali State Polytechnic</h1>
                         <p className="font-medium text-slate-500 leading-normal pb-10 text-justify" data-aos="fade-left">An active student enrolled in the D4 Software Engineering program at Bali State Polytechnic, currently in the sixth semester of the className of 2021. Possesses a diverse range of expertise in web development, including UX/UI design using Figma, front-end development (HTML, CSS, and JavaScript), as well as back-end development utilizing PHP, JavaScript, and frameworks like CodeIgniter and Laravel, Node.js, Express.js, and MySQL for database design. Additionally, proficient in soft skills such as Data Analysis, Research, and Project Management. Demonstrates a keen interest and talent in software design and development, particularly in the realm of website development.</p>
                         <div className="flex w-full" data-aos="fade-left">
-                            <a href="https://drive.google.com/file/d/1dovEVWtJ65RjNjWWljebVAK0ZVsopwwo/view" target='blank' className="bg-blue-400 p-5 w-full text-white font-semibold hover:bg-blue-700 transition rounded-lg">
+                            <a href="https://drive.google.com/file/d/1qbYcoYcCSu8O6oeG8DUrf_bqjtmU4xe1/view?usp=sharing" target='blank' className="bg-blue-400 p-5 w-full text-white font-semibold hover:bg-blue-700 transition rounded-lg">
                                 <span className="block text-center">Download CV<i className="fa-solid fa-arrow-down ml-4 mt-1"></i></span>
                             </a>
                         </div>
