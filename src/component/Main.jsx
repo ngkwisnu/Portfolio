@@ -27,17 +27,17 @@ const Main = () => {
             className="font-medium text-slate-500 leading-normal pb-10"
             data-aos="fade-left"
           >
-            An active student enrolled in the D4 Software Engineering program at
-            Bali State Polytechnic, currently in the sixth semester of the
-            className of 2021. Possesses a diverse range of expertise in web
-            development, including UX/UI design using Figma, front-end
-            development (HTML, CSS, and JavaScript), as well as back-end
-            development utilizing PHP, JavaScript, and frameworks like
-            CodeIgniter and Laravel, Node.js, Express.js, and MySQL for database
-            design. Additionally, proficient in soft skills such as Data
-            Analysis, Research, and Project Management. Demonstrates a keen
-            interest and talent in software design and development, particularly
-            in the realm of website development.
+            I am a software engineering student at Politeknik Negeri Bali. As a
+            software developer especially in the web field, I have expertise in
+            front-end and back-end development, as well as an understanding of
+            the latest web technologies such as HTML, CSS, JavaScript, and
+            various frameworks such as ReactJS and Express JS. In addition, I
+            also continue to hone my individual skills as a web developer such
+            as UX Research, UI Design, Project Management, Critical Thinking,
+            Problem Solving, and Teamwork. With the skills and experience I
+            have, I want to continue learning to keep up with the development of
+            the industry and technology. I hope to make a positive contribution
+            and be part of the journey to mutual success.
           </p>
           <div className="flex w-full" data-aos="fade-left">
             <a
