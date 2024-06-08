@@ -22,7 +22,7 @@ const MobileView = () => {
               <a
                 href="#home"
                 className="flex items-center text-lg"
-                data-aos="fade-down"
+                data-aos="fade-up"
               >
                 Wisnu Mahesa
               </a>
@@ -82,20 +82,20 @@ const MobileView = () => {
           >
             <div
               className="w-full flex justify-center items-center mt-10"
-              data-aos="fade-down"
+              data-aos="fade-up"
             >
               <img src="img/saya2.png" className="w-2/5" alt="" />
             </div>
             <div className="mx-10 w-full flex-wrap mt-8 text-slate-800">
               <p
                 className="font-bold text-blue-400 pb-3 text-center"
-                data-aos="fade-down"
+                data-aos="fade-up"
               >
                 ABOUT ME
               </p>
               <h1
                 className="text-2xl gap-2 font-semibold pb-7 flex flex-col leading-normal text-center"
-                data-aos="fade-down"
+                data-aos="fade-up"
               >
                 Software Engineer Student{" "}
                 <span className="text-lg text-slate-500 font-normal">
@@ -104,7 +104,7 @@ const MobileView = () => {
               </h1>
               <p
                 className="font-medium text-slate-500 leading-normal pb-10 text-justify"
-                data-aos="fade-down"
+                data-aos="fade-up"
               >
                 An active student enrolled in the D4 Software Engineering
                 program at Bali State Polytechnic, currently in the sixth
