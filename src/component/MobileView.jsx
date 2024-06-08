@@ -212,16 +212,16 @@ const MobileView = () => {
                 SKILLS
               </p>
               <h1
-                className="text-3xl font-semibold pb-3 leading-normal text-center w-4/5"
+                className="text-2xl font-semibold pb-3 leading-normal text-center w-4/5"
                 data-aos="fade-up"
               >
-                Software and Technology
+                Software & Technology
               </h1>
             </div>
-            <div className="flex justify-center">
-              <div className="w-3/4 my-10 flex flex-wrap gap-10">
+            <div className="w-full flex justify-center items-center">
+              <div className="w-4/5 grid grid-cols-2 gap-5 my-10">
                 <div data-aos="zoom-in">
-                  <div className="group bg-transparent border-2 hover:bg-blue-400 transition ease-in-out delay-100 shadow-sm h-full p-10 text-slate-700 rounded-lg backdrop-blur-sm hover:-translate-y-1 hover:scale-110 duration-300">
+                  <div className="group bg-transparent border-2 hover:bg-blue-400 transition flex flex-col justify-center items-center ease-in-out delay-100 shadow-sm h-full p-10 text-slate-700 rounded-lg backdrop-blur-sm hover:-translate-y-1 hover:scale-110 duration-300">
                     <img
                       className="mb-5"
                       src="img/img/devicon_html5.png"
@@ -231,14 +231,10 @@ const MobileView = () => {
                     <h4 className="text-lg font-semibold text-slate-700 group-hover:text-white transition ease-in-out delay-100">
                       HTML
                     </h4>
-                    <p className="text-sm text-slate-400 mt-3 leading-relaxed group-hover:text-white transition ease-in-out delay-100">
-                      HyperText Markup Language is the standard markup language
-                      for documents designed to be displayed in a web browser.
-                    </p>
                   </div>
                 </div>
                 <div data-aos="zoom-in">
-                  <div className="group bg-transparent border-2 hover:bg-blue-400 transition ease-in-out delay-100 shadow-sm h-full p-10 text-slate-700 rounded-lg backdrop-blur-sm hover:-translate-y-1 hover:scale-110 duration-300">
+                  <div className="group bg-transparent border-2 hover:bg-blue-400 flex flex-col justify-center items-center transition ease-in-out delay-100 shadow-sm h-full p-10 text-slate-700 rounded-lg backdrop-blur-sm hover:-translate-y-1 hover:scale-110 duration-300">
                     <img
                       className="mb-5"
                       src="img/img/devicon_css3.png"
@@ -248,15 +244,10 @@ const MobileView = () => {
                     <h4 className="text-lg font-semibold text-slate-700 group-hover:text-white transition ease-in-out delay-100">
                       CSS
                     </h4>
-                    <p className="text-sm text-slate-400 mt-3 leading-relaxed group-hover:text-white transition ease-in-out delay-100">
-                      Cascading Style Sheets are rules for organizing various
-                      components on a website to make them more structured and
-                      consistent.
-                    </p>
                   </div>
                 </div>
                 <div data-aos="zoom-in">
-                  <div className="group bg-transparent border-2 hover:bg-blue-400 transition ease-in-out delay-100 shadow-sm h-full p-10 text-slate-700 rounded-lg backdrop-blur-sm hover:-translate-y-1 hover:scale-110 duration-300">
+                  <div className="group bg-transparent flex flex-col justify-center items-center border-2 hover:bg-blue-400 transition ease-in-out delay-100 shadow-sm h-full p-10 text-slate-700 rounded-lg backdrop-blur-sm hover:-translate-y-1 hover:scale-110 duration-300">
                     <img
                       className="mb-5"
                       src="img/devicon_figma.png"
@@ -266,15 +257,10 @@ const MobileView = () => {
                     <h4 className="text-lg font-semibold text-slate-700 group-hover:text-white transition ease-in-out delay-100">
                       Figma
                     </h4>
-                    <p className="text-sm text-slate-400 mt-3 leading-relaxed group-hover:text-white transition ease-in-out delay-100">
-                      Figma is a collaborative web application for user
-                      interface design, with additional offline features
-                      available in desktop applications for Windows and macOS.
-                    </p>
                   </div>
                 </div>
                 <div data-aos="zoom-in">
-                  <div className="group bg-transparent border-2 hover:bg-blue-400 transition ease-in-out delay-100 shadow-sm h-full p-10 text-slate-700 rounded-lg backdrop-blur-sm hover:-translate-y-1 hover:scale-110 duration-300">
+                  <div className="group bg-transparent border-2 flex flex-col justify-center items-center hover:bg-blue-400 transition ease-in-out delay-100 shadow-sm h-full p-10 text-slate-700 rounded-lg backdrop-blur-sm hover:-translate-y-1 hover:scale-110 duration-300">
                     <img
                       className="mb-5"
                       src="img/img/mysql.png"
@@ -284,15 +270,10 @@ const MobileView = () => {
                     <h4 className="text-lg font-semibold text-slate-700 group-hover:text-white transition ease-in-out delay-100">
                       MySQL
                     </h4>
-                    <p className="text-sm text-slate-400 mt-3 leading-relaxed group-hover:text-white transition ease-in-out delay-100">
-                      MySQL is a multi-threaded, multi-user SQL database
-                      management system (DBMS) software, with approximately 6
-                      million installations worldwide.
-                    </p>
                   </div>
                 </div>
                 <div data-aos="zoom-in">
-                  <div className="group bg-transparent border-2 hover:bg-blue-400 transition ease-in-out delay-100 shadow-sm h-full p-10 text-slate-700 rounded-lg backdrop-blur-sm hover:-translate-y-1 hover:scale-110 duration-300">
+                  <div className="group bg-transparent border-2 hover:bg-blue-400 flex flex-col justify-center items-center transition ease-in-out delay-100 shadow-sm h-full p-10 text-slate-700 rounded-lg backdrop-blur-sm hover:-translate-y-1 hover:scale-110 duration-300">
                     <img
                       className="mb-5"
                       src="img/img/logos_nodejs-icon.png"
@@ -302,16 +283,10 @@ const MobileView = () => {
                     <h4 className="text-lg font-semibold text-slate-700 group-hover:text-white transition ease-in-out delay-100">
                       NodeJS
                     </h4>
-                    <p className="text-sm text-slate-400 mt-3 leading-relaxed group-hover:text-white transition ease-in-out delay-100">
-                      Node.js is a software platform designed by Ryan Dahl.
-                      Node.js is a runtime for executing JavaScript outside of
-                      the web browser environment, built on top of the
-                      JavaScript V8 engine.
-                    </p>
                   </div>
                 </div>
                 <div data-aos="zoom-in">
-                  <div className="group bg-transparent border-2 hover:bg-blue-400 transition ease-in-out delay-100 shadow-sm h-full p-10 text-slate-700 rounded-lg backdrop-blur-sm hover:-translate-y-1 hover:scale-110 duration-300">
+                  <div className="group bg-transparent border-2 flex flex-col justify-center items-center hover:bg-blue-400 transition ease-in-out delay-100 shadow-sm h-full p-10 text-slate-700 rounded-lg backdrop-blur-sm hover:-translate-y-1 hover:scale-110 duration-300">
                     <img
                       className="mb-5"
                       src="img/devicon_tailwindcss.png"
@@ -321,10 +296,6 @@ const MobileView = () => {
                     <h4 className="text-lg font-semibold text-slate-700 group-hover:text-white transition ease-in-out delay-100">
                       TailwindCSS
                     </h4>
-                    <p className="text-sm text-slate-400 mt-3 leading-relaxed group-hover:text-white transition ease-in-out delay-100">
-                      Tailwind CSS is a CSS framework that contains a set of
-                      utility classes for rapidly building custom interfaces.
-                    </p>
                   </div>
                 </div>
               </div>
@@ -445,7 +416,7 @@ const MobileView = () => {
                 PORTFOLIO
               </p>
               <h1
-                className="text-3xl font-semibold pb-3 leading-normal text-center w-4/5"
+                className="text-2xl font-semibold pb-3 leading-normal text-center w-4/5"
                 data-aos="fade-down"
               >
                 Some Of My Recent Works
